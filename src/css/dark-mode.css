@@ -1,0 +1,261 @@
+/**
+ * 博客园快速美化框架 - 暗黑模式样式
+ * 定义暗黑模式下的颜色和样式
+ */
+
+/* 基础样式覆盖 */
+body.dark-mode {
+    background-color: #15202b;
+    color: #e6ecf0;
+}
+
+body.dark-mode a {
+    color: #1da1f2;
+}
+
+body.dark-mode a:hover {
+    color: #57bef6;
+}
+
+/* 卡片和容器 */
+body.dark-mode .card,
+body.dark-mode .day,
+body.dark-mode #blog_post_info,
+body.dark-mode #blog_post_info_block {
+    background-color: #192734;
+    border-color: #38444d;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .card:hover,
+body.dark-mode .day:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* 标题和文本 */
+body.dark-mode .postTitle a,
+body.dark-mode .entrylistTitle a,
+body.dark-mode .card-title,
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6 {
+    color: #fff;
+}
+
+body.dark-mode .postCon,
+body.dark-mode .c_b_p_desc {
+    color: #8899a6;
+}
+
+body.dark-mode .postDesc,
+body.dark-mode .postMeta,
+body.dark-mode .c_b_p_desc_readmore {
+    color: #657786;
+    border-top-color: #38444d;
+}
+
+/* 边框和分割线 */
+body.dark-mode .dayTitle,
+body.dark-mode .entrylistTitle {
+    border-bottom-color: #38444d;
+}
+
+body.dark-mode table th,
+body.dark-mode table td {
+    border-color: #38444d;
+}
+
+body.dark-mode table th {
+    background-color: #243447;
+}
+
+/* 代码和引用 */
+body.dark-mode code {
+    background-color: #243447;
+    color: #f8f8f2;
+}
+
+body.dark-mode pre {
+    background-color: #243447;
+    border-color: #38444d;
+}
+
+body.dark-mode pre code {
+    color: #f8f8f2;
+}
+
+body.dark-mode blockquote {
+    background-color: rgba(29, 161, 242, 0.1);
+    border-left-color: #1da1f2;
+    color: #8899a6;
+}
+
+/* 代码高亮 */
+body.dark-mode .code-header {
+    background-color: #2c384a;
+    border-color: #38444d;
+}
+
+body.dark-mode .code-language {
+    color: #8899a6;
+}
+
+body.dark-mode .line-numbers {
+    background-color: #243447;
+    border-right-color: #38444d;
+    color: #657786;
+}
+
+/* 目录 */
+body.dark-mode .toc-container {
+    background-color: #192734;
+    border-color: #38444d;
+}
+
+body.dark-mode .toc-title {
+    color: #fff;
+}
+
+body.dark-mode .toc-item a {
+    color: #8899a6;
+}
+
+body.dark-mode .toc-item a:hover,
+body.dark-mode .toc-item.active a {
+    color: #1da1f2;
+}
+
+/* 标签 */
+body.dark-mode .tag {
+    background-color: rgba(29, 161, 242, 0.2);
+}
+
+/* 侧边栏 */
+body.dark-mode #sideBar .newsItem,
+body.dark-mode #sideBar #blog-calendar,
+body.dark-mode #sideBar .catListTitle {
+    background-color: #192734;
+    border-color: #38444d;
+}
+
+body.dark-mode #sideBar a {
+    color: #8899a6;
+}
+
+body.dark-mode #sideBar a:hover {
+    color: #1da1f2;
+}
+
+/* 按钮和互动元素 */
+body.dark-mode .dark-mode-toggle {
+    background-color: #38444d;
+}
+
+body.dark-mode .dark-mode-toggle:hover {
+    background-color: #4c5b6b;
+}
+
+body.dark-mode .back-to-top {
+    background-color: #38444d;
+}
+
+body.dark-mode .back-to-top:hover {
+    background-color: #4c5b6b;
+}
+
+/* 输入框和表单 */
+body.dark-mode input[type="text"],
+body.dark-mode input[type="email"],
+body.dark-mode input[type="password"],
+body.dark-mode textarea {
+    background-color: #243447;
+    border-color: #38444d;
+    color: #e6ecf0;
+}
+
+body.dark-mode input[type="submit"],
+body.dark-mode button {
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+}
+
+body.dark-mode input[type="submit"]:hover,
+body.dark-mode button:hover {
+    background-color: #1a91da;
+}
+
+/* 评论区 */
+body.dark-mode .comment_wrapper,
+body.dark-mode .feedbackItem,
+body.dark-mode .feedbackListSubtitle {
+    background-color: #192734;
+    border-color: #38444d;
+}
+
+body.dark-mode .comment_my_posted {
+    background-color: rgba(29, 161, 242, 0.1);
+}
+
+body.dark-mode .comment_vote {
+    color: #8899a6;
+}
+
+/* 页脚 */
+body.dark-mode #footer {
+    background-color: #15202b;
+    color: #8899a6;
+    border-top-color: #38444d;
+}
+
+/* 灯箱 */
+body.dark-mode .lightbox-container {
+    background-color: transparent;
+}
+
+/* 统计信息 */
+body.dark-mode .post-stats {
+    color: #8899a6;
+}
+
+/* 分享按钮 */
+body.dark-mode .sharing-label {
+    color: #8899a6;
+}
+
+/* 代码块复制按钮 */
+body.dark-mode .code-copy {
+    color: #1da1f2;
+}
+
+body.dark-mode .code-copy:hover {
+    background-color: rgba(29, 161, 242, 0.2);
+}
+
+/* 滚动条样式 */
+body.dark-mode::-webkit-scrollbar {
+    width: 10px;
+}
+
+body.dark-mode::-webkit-scrollbar-track {
+    background: #15202b;
+}
+
+body.dark-mode::-webkit-scrollbar-thumb {
+    background-color: #38444d;
+    border-radius: 10px;
+    border: 2px solid #15202b;
+}
+
+body.dark-mode::-webkit-scrollbar-thumb:hover {
+    background-color: #4c5b6b;
+}
+
+/* 加载动画 */
+body.dark-mode .loading-spinner::after {
+    border-color: #38444d;
+    border-top-color: #1da1f2;
+} 

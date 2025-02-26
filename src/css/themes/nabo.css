@@ -1,0 +1,329 @@
+/**
+ * 博客园快速美化框架 - Nabo主题
+ * 受Twitter启发的简约蓝色主题
+ */
+
+:root {
+    --nabo-primary: #1DA1F2;
+    --nabo-primary-hover: #0c85d0;
+    --nabo-text-primary: #14171a;
+    --nabo-text-secondary: #657786;
+    --nabo-text-tertiary: #8899a6;
+    --nabo-bg-primary: #fff;
+    --nabo-bg-secondary: #f5f8fa;
+    --nabo-border: #e1e8ed;
+    --nabo-shadow: rgba(0, 0, 0, 0.05);
+}
+
+/* 应用主题色 */
+.theme-nabo a {
+    color: var(--nabo-primary);
+}
+
+.theme-nabo a:hover {
+    color: var(--nabo-primary-hover);
+}
+
+.theme-nabo blockquote {
+    border-left-color: var(--nabo-primary);
+    background-color: rgba(29, 161, 242, 0.05);
+}
+
+.theme-nabo .dark-mode-toggle,
+.theme-nabo .back-to-top {
+    background-color: var(--nabo-primary);
+}
+
+.theme-nabo .dark-mode-toggle:hover,
+.theme-nabo .back-to-top:hover {
+    background-color: var(--nabo-primary-hover);
+}
+
+.theme-nabo .tag {
+    background-color: rgba(29, 161, 242, 0.1);
+    color: var(--nabo-primary);
+}
+
+.theme-nabo .tag:hover {
+    background-color: rgba(29, 161, 242, 0.2);
+    color: var(--nabo-primary);
+}
+
+.theme-nabo .toc-item.active a,
+.theme-nabo .toc-item a:hover {
+    color: var(--nabo-primary);
+}
+
+.theme-nabo .code-copy {
+    color: var(--nabo-primary);
+}
+
+.theme-nabo .code-copy:hover {
+    background-color: rgba(29, 161, 242, 0.1);
+}
+
+/* 主题特定样式 */
+.theme-nabo #navigator {
+    background-color: var(--nabo-primary);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.theme-nabo #navList a {
+    color: #fff;
+}
+
+.theme-nabo #navList a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.theme-nabo .postTitle a:hover {
+    color: var(--nabo-primary);
+}
+
+.theme-nabo .blogStats {
+    color: var(--nabo-text-secondary);
+}
+
+/* 自定义头部样式 */
+.theme-nabo #header {
+    background-color: var(--nabo-bg-primary);
+    border-bottom: 1px solid var(--nabo-border);
+    box-shadow: 0 1px 3px var(--nabo-shadow);
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.theme-nabo #blogTitle h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.theme-nabo #blogTitle h1 a {
+    color: var(--nabo-text-primary);
+}
+
+.theme-nabo #blogTitle h1 a:hover {
+    color: var(--nabo-primary);
+    text-decoration: none;
+}
+
+.theme-nabo #blogSubtitle {
+    color: var(--nabo-text-secondary);
+    font-size: 16px;
+}
+
+/* 侧边栏样式 */
+.theme-nabo #sideBar {
+    padding-top: 20px;
+}
+
+.theme-nabo #sideBar .newsItem,
+.theme-nabo #sideBar .catListTitle {
+    border-bottom: 1px solid var(--nabo-border);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.theme-nabo #sideBar h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: var(--nabo-text-primary);
+}
+
+.theme-nabo #sideBar ul {
+    padding-left: 20px;
+}
+
+.theme-nabo #sideBar li {
+    margin-bottom: 8px;
+}
+
+/* 文章列表样式 */
+.theme-nabo .day {
+    margin-bottom: 30px;
+    background-color: var(--nabo-bg-primary);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px var(--nabo-shadow);
+    padding: 20px;
+    border: 1px solid var(--nabo-border);
+    transition: box-shadow 0.3s;
+}
+
+.theme-nabo .day:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.theme-nabo .dayTitle {
+    font-size: 16px;
+    color: var(--nabo-text-secondary);
+    margin-bottom: 15px;
+}
+
+.theme-nabo .postTitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 15px;
+}
+
+.theme-nabo .postTitle a {
+    color: var(--nabo-text-primary);
+    transition: color 0.2s;
+}
+
+.theme-nabo .postTitle a:hover {
+    color: var(--nabo-primary);
+    text-decoration: none;
+}
+
+.theme-nabo .postCon {
+    margin-bottom: 15px;
+    color: var(--nabo-text-secondary);
+}
+
+.theme-nabo .postDesc {
+    color: var(--nabo-text-tertiary);
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid var(--nabo-border);
+}
+
+/* 文章详情页样式 */
+.theme-nabo .post {
+    background-color: var(--nabo-bg-primary);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px var(--nabo-shadow);
+    padding: 30px;
+    border: 1px solid var(--nabo-border);
+    margin-bottom: 30px;
+}
+
+.theme-nabo .postBody {
+    color: var(--nabo-text-primary);
+    line-height: 1.8;
+}
+
+.theme-nabo .postBody h1,
+.theme-nabo .postBody h2,
+.theme-nabo .postBody h3,
+.theme-nabo .postBody h4,
+.theme-nabo .postBody h5,
+.theme-nabo .postBody h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    color: var(--nabo-text-primary);
+}
+
+.theme-nabo .postBody h1 {
+    font-size: 28px;
+    border-bottom: 1px solid var(--nabo-border);
+    padding-bottom: 10px;
+}
+
+.theme-nabo .postBody h2 {
+    font-size: 24px;
+}
+
+.theme-nabo .postBody h3 {
+    font-size: 20px;
+}
+
+.theme-nabo .postBody p {
+    margin-bottom: 1.2em;
+}
+
+/* 评论区样式 */
+.theme-nabo .feedbackItem {
+    background-color: var(--nabo-bg-primary);
+    border: 1px solid var(--nabo-border);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.theme-nabo .feedbackListSubtitle {
+    color: var(--nabo-text-tertiary);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.theme-nabo .feedbackCon {
+    color: var(--nabo-text-primary);
+}
+
+.theme-nabo .comment_vote {
+    color: var(--nabo-text-tertiary);
+}
+
+/* 分页样式 */
+.theme-nabo .pager {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.theme-nabo .Pager a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: var(--nabo-bg-primary);
+    border: 1px solid var(--nabo-border);
+    border-radius: 4px;
+    color: var(--nabo-text-primary);
+    transition: all 0.2s;
+}
+
+.theme-nabo .Pager a:hover {
+    background-color: var(--nabo-primary);
+    color: #fff;
+    border-color: var(--nabo-primary);
+    text-decoration: none;
+}
+
+/* 页脚样式 */
+.theme-nabo #footer {
+    text-align: center;
+    color: var(--nabo-text-secondary);
+    margin-top: 40px;
+    padding: 20px 0;
+    border-top: 1px solid var(--nabo-border);
+}
+
+/* 按钮和交互元素 */
+.theme-nabo input[type="submit"],
+.theme-nabo button {
+    background-color: var(--nabo-primary);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.theme-nabo input[type="submit"]:hover,
+.theme-nabo button:hover {
+    background-color: var(--nabo-primary-hover);
+}
+
+/* 美化滚动条 */
+.theme-nabo::-webkit-scrollbar {
+    width: 10px;
+}
+
+.theme-nabo::-webkit-scrollbar-track {
+    background: var(--nabo-bg-secondary);
+}
+
+.theme-nabo::-webkit-scrollbar-thumb {
+    background-color: #cfd9de;
+    border-radius: 10px;
+    border: 2px solid var(--nabo-bg-secondary);
+}
+
+.theme-nabo::-webkit-scrollbar-thumb:hover {
+    background-color: #bdc5cb;
+} 
