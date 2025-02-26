@@ -73,7 +73,7 @@
   p.infiniteScroll = true;
   
   // 静态资源路径（使用CDN加速）
-  p.staticSrc = "//cdn.jsdelivr.net/gh/cubeyu/qb-cnblogs@main/dist/";
+  p.staticSrc = "//cdn.jsdelivr.net/gh/TechIslands/qb-cnblogs@main/dist/";
   
   // 可选：额外CSS文件
   p.extCss = [];
@@ -85,10 +85,10 @@
   window.__BLOG_CONFIG__ = p;
 })();
 </script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/cubeyu/qb-cnblogs@main/dist/js/cnblogLoader.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/TechIslands/qb-cnblogs@main/dist/js/cnblogLoader.min.js"></script>
 ```
 
-> **注意**：请将代码中的 `cubeyu` 替换为您的GitHub用户名或您托管资源的实际路径。
+> **注意**：请将代码中的 `TechIslands` 替换为您的GitHub用户名或您托管资源的实际路径。
 
 ### 配置参数说明
 
